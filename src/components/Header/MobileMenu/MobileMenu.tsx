@@ -14,7 +14,7 @@ interface MenuType {
 const MobileMenu: React.FC<MenuType> = ({ links }) => {
     const [isActive, setIsActive] = useState(false);
     return (
-        <div className="block md:hidden">
+        <div className="block md:hidden z-10">
             <div onClick={() => setIsActive(isActive => !isActive)} className="flex flex-col gap-2 justify-center items-center cursor-pointer">
                 <span className={`${isActive && "rotate-45 origin-[25%]"} border bg-white border-white w-7 h-[2px] transition-all duration-500`}></span>
                 <span className={`${isActive && "-rotate-45 origin-[25%]"} border bg-white border-white w-7 h-[2px] transition-all duration-500`}></span>

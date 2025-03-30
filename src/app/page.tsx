@@ -1,11 +1,13 @@
+import Hero from "@/components/HomeComp/Hero/Hero";
+import Services from "@/components/HomeComp/Services/Services";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="font-bold text-3xl uppercase">Home</h1>
-      <p className="font-lato font-bold text-3xl uppercase">This is a paragraph with Lato font.</p>
-      <p className="font-roboto font-bold text-3xl uppercase">This is a paragraph with Roboto font.</p>
-      <p className="font-inter font-bold text-3xl uppercase">This is a paragraph with Inter font.</p>
+      <Hero />
+      <div className="container mx-auto max-w-[1250px] px-4">
+        <Services />
+      </div>
     </div>
   );
 }
