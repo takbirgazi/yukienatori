@@ -1,4 +1,5 @@
 import SectionHeader from "@/components/CommonComp/SectionHeader/SectionHeader";
+import BookingForm from "./BookingForm/BookingForm";
 
 const Booking = () => {
     const headingData = {
@@ -10,7 +11,7 @@ const Booking = () => {
         <div>
             <SectionHeader SectionHeaderData={headingData} />
             <div>
-
+                <BookingForm />
             </div>
         </div>
     );
