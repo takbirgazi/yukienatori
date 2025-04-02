@@ -31,7 +31,7 @@ const Header = () => {
     return (
         <div>
             <TopHeader />
-            <div className="bg-transparent py-5">
+            <div className="bg-transparent mt-[48px] py-5">
                 <div className="container mx-auto max-w-[1250px] px-4 flex justify-between items-center">
                     <Link href="/" className="flex gap-1 items-center">
                         <figure>
