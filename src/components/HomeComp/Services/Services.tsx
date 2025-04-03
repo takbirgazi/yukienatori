@@ -10,17 +10,20 @@ const Services = () => {
         {
             id: 1,
             imageUrl: "https://yukienatori-newyork.com/wp-content/uploads/2025/01/spa-nyc-yukie.jpg",
-            title: "SPA"
+            title: "SPA",
+            slag: '/'
         },
         {
             id: 2,
             imageUrl: "https://yukienatori-newyork.com/wp-content/uploads/2025/01/nail-nyc-yukie.jpg",
-            title: "NAIL"
+            title: "NAIL",
+            slag: '/'
         },
         {
             id: 3,
             imageUrl: "https://yukienatori-newyork.com/wp-content/uploads/2025/01/hair-nyc-yukie.jpg",
-            title: "HAIR"
+            title: "HAIR",
+            slag: '/'
         }
     ]
     return (

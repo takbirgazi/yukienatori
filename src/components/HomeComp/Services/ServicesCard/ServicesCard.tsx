@@ -12,7 +12,7 @@ const ServicesCard: React.FC<ServicesCardType> = ({ ServicesCardData }) => {
                 <h2 className='text-[#ca8fc7] text-center font-bold text-3xl selection:text-black selection:bg-white'>{ServicesCardData.title}</h2>
             </div>
             <div className='flex justify-center'>
-                <Link href={`/${ServicesCardData.title}`} className='border px-8 py-3.5 border-[#333333] text-white font-bold bg-[#333333] hover:text-[#333333] hover:bg-transparent transition-all duration-300' >MORE</Link>
+                <Link href={`/${ServicesCardData.slag}`} className='border px-8 py-3.5 border-[#333333] text-white font-bold bg-[#333333] hover:text-[#333333] hover:bg-transparent transition-all duration-300' >MORE</Link>
             </div>
         </div>
     );

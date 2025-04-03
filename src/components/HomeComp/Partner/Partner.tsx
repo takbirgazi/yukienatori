@@ -18,7 +18,7 @@ const Partner = () => {
             </div>
             <div className="flex flex-col gap-12 justify-center items-center pb-12">
                 <div className="flex justify-center items-center">
-                    <Link className="px-20 uppercase hover:bg-[#8DBFBE] transition-all duration-500 py-3.5 rounded-xs bg-black text-white" href="/" >Call Us</Link>
+                    <a href="tel:6466534924" className="px-20 uppercase hover:bg-[#8DBFBE] transition-all duration-500 py-3.5 rounded-xs bg-black text-white" >Call Us</a>
                 </div>
                 <div className="flex justify-center items-center">
                     <Link className="md:px-20 px-4 uppercase hover:bg-[#8DBFBE] transition-all duration-500 py-3.5 rounded-xs bg-black text-white text-center" href="/" >BOOK MASSAGE OR FACIAL ONLINE</Link>

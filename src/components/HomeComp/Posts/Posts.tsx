@@ -38,7 +38,7 @@ const Posts = () => {
                 }
             </div>
             <div className="flex justify-center items-center">
-                <Link href={`/`} className='uppercase border px-4.5 py-3.5 border-[#C2AA6C] text-white font-bold rounded-sm hover:bg-[#C2AA6C] bg-transparent transition-all duration-300' >View All</Link>
+                <Link href="/blog" className='uppercase border px-4.5 py-3.5 border-[#C2AA6C] text-white font-bold rounded-sm hover:bg-[#C2AA6C] bg-transparent transition-all duration-300' >View All</Link>
             </div>
         </div>
     );
