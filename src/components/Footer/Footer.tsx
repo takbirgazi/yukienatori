@@ -14,19 +14,19 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col gap-1">
-                    <Link href="/" className="text-sm md:text-base text-[#ca8fc7] text-center">39 WEST 56TH STREET NEW YORK, NY 10019</Link>
-                    <Link href="tel:2128106900" className="text-sm md:text-base text-[#ca8fc7] text-center">212.810.6900</Link>
-                    <Link href="tel:6466495324" className="text-sm md:text-base text-[#ca8fc7] text-center">646.649.5324</Link>
-                    <Link href="mailto:INFO@YUKIEBEAUTY.COM" className="text-sm md:text-base text-[#ca8fc7] text-center">INFO@YUKIEBEAUTY.COM</Link>
+                    <p className="text-center"><Link href="/" className="text-sm md:text-base text-[#ca8fc7] text-center">39 WEST 56TH STREET NEW YORK, NY 10019</Link></p>
+                    <p className="text-center"><Link href="tel:2128106900" className="text-sm md:text-base text-[#ca8fc7] text-center">212.810.6900</Link></p>
+                    <p className="text-center"><Link href="tel:6466495324" className="text-sm md:text-base text-[#ca8fc7] text-center">646.649.5324</Link></p>
+                    <p className="text-center"><Link href="mailto:INFO@YUKIEBEAUTY.COM" className="text-sm md:text-base text-[#ca8fc7] text-center">INFO@YUKIEBEAUTY.COM</Link></p>
                     <p className="text-sm md:text-base text-[#ca8fc7] text-center">MON-SAT 10AM-8PM/SUN 10AM-8PM</p>
                 </div>
 
                 <div className="flex flex-col gap-1">
-                    <Link href="/accessibility" className="text-sm md:text-base text-[#ca8fc7] text-center">Accessibility Statement</Link>
-                    <Link href="/privacy-policy" className="text-sm md:text-base text-[#ca8fc7] text-center">Privacy Policy</Link>
+                    <p className="text-center"><Link href="/accessibility" className="text-sm md:text-base text-[#ca8fc7] text-center">Accessibility Statement</Link></p>
+                    <p className="text-center"><Link href="/privacy-policy" className="text-sm md:text-base text-[#ca8fc7] text-center">Privacy Policy</Link></p>
                     <p className="text-sm md:text-base text-[#ca8fc7] text-center">FOLLOW US ON</p>
-                    <Link href="https://www.instagram.com" className="text-sm md:text-base text-[#ca8fc7] text-center">INSTAGRAM</Link>
-                    <Link href="https://www.facebook.com" className="text-sm md:text-base text-[#ca8fc7] text-center">FACEBOOK</Link>
+                    <p className="text-center"><Link href="https://www.instagram.com" className="text-sm md:text-base text-[#ca8fc7] text-center">INSTAGRAM</Link></p>
+                    <p className="text-center"><Link href="https://www.facebook.com" className="text-sm md:text-base text-[#ca8fc7] text-center">FACEBOOK</Link></p>
                 </div>
 
                 <p className="font-medium text-sm md:text-base text-center text-[#ca8fc7]">&copy; 2023 <Link href="/" className="font-semibold text-white">CHOOSE US AGENCY</Link> ALL RIGHTS RESERVED.</p>
