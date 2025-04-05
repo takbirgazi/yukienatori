@@ -9,7 +9,7 @@ const Header = () => {
         {
             id: 1,
             title: "About",
-            slag: "/"
+            slag: "/about"
         },
         {
             id: 2,
