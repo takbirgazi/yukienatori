@@ -14,7 +14,7 @@ const Header = () => {
         {
             id: 2,
             title: "Gallery",
-            slag: "/"
+            slag: "/gallery"
         },
         {
             id: 3,
